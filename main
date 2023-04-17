@@ -1,0 +1,40 @@
+ --KRNL & Synapse only
+ 
+ 
+ rconsolename("Calamari :// Key System")
+rconsoleclear()
+wait(0.5)
+rconsoleinfo("VERSION: 0.01")
+wait(0.5)
+rconsoleinfo("Key Link : ")
+
+
+
+
+ rconsoleprint("[KEY] ")
+ rconsoleprint("Enter Key Here: ")
+
+local key = rconsoleinput("key1")
+
+
+
+
+
+
+
+if key == "key1" then
+rconsoleclear()
+rconsoleinfo("KEY VALID")
+rconsoleprint('@@WHITE@@')
+wait(2)
+rconsoleinfo("Boot Successful")
+wait(2)
+rconsoleclose()
+
+--place script script below--
+end
+
+
+--if the key entered does not match it'll show this
+rconsoleinfo("KEY INCORRECT")
+rconsoleinfo("RE-EXECUTE the script.")
